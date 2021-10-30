@@ -1,0 +1,16 @@
+body{
+    font-family: "Arial";
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    background-color: blueviolet;
+    color: white;
+    
+}

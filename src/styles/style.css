@@ -1,6 +1,6 @@
 
 body{
-    font-family: "Calibri";
+    font-family: 'Roboto', sans-serif;
     background-image: url("/src/images/resizeunsplashocean.jpg");
     background-repeat: no-repeat;
     background-size: auto;
@@ -16,7 +16,7 @@ header{
 
 a{
     background-color: none;
-    color: rgb(13, 68, 90);
+    color: rgb(18, 64, 82);
     
 }
 

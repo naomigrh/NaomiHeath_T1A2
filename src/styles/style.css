@@ -1,8 +1,10 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    /*
     background-image: url("/images/resizeunsplashocean.jpg");
-    /*"/src/images/resizeunsplashocean.jpg"*/
+    */
+    background: rgb(255, 235, 179);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;

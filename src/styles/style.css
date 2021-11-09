@@ -4,10 +4,13 @@ body{
     /*
     background-image: url("/images/resizeunsplashocean.jpg");
     */
-    background: rgb(255, 235, 179);
+    background: rgb(245, 232, 197);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    border: 20px solid rgb(39, 110, 128);
+    border-radius: 10px;
+    padding: 5%
 }
 
 header{
@@ -17,10 +20,16 @@ header{
     align-items: flex-start;
 }
 
+.nav {
+    display: inline;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: space-around;
+}
+
 a{
     background-color: none;
     color: rgb(18, 64, 82);
-    
 }
 
 form {

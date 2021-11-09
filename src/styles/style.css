@@ -15,16 +15,34 @@ body{
 
 header{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
 }
 
+header img{
+    height: 80px;
+}
+
 .nav {
-    display: inline;
+    display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
     align-content: space-around;
+    width:750px;
+    margin:0 auto;
+    list-style:none;
+}
+
+.nav li {
+float:left;
+}
+
+.nav a {
+    display:block;
+    text-align:center;
+    width:150px; /* fixed width */
+    text-decoration:none; 
 }
 
 a{

@@ -70,9 +70,9 @@ form {
   }
 
 .back-to-top {
-    position: absolute;
+    position: fixed;
     right: 5rem;
-    bottom: -5em;
+    bottom: 4rem;
     width: 3em;
 }
 

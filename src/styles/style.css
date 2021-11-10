@@ -5,9 +5,11 @@ body{
     background-image: url("/images/resizeunsplashocean.jpg");
     */
     background: rgb(245, 232, 197);
+    /*
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    */
     border: 20px solid rgb(39, 110, 128);
     border-radius: 10px;
     padding: 5%

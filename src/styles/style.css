@@ -4,7 +4,7 @@ body{
     /*
     background-image: url("/images/resizeunsplashocean.jpg");
     */
-    background: rgb(245, 232, 197);
+    background: rgb(255, 236, 188);
     /*
     background-repeat: no-repeat;
     background-size: cover;
@@ -55,6 +55,25 @@ a{
 form {
     display: block;
     margin-top: 0em;
+}
+
+.back-to-top-link {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 2rem;
+    line-height: 3rem;
+    text-align: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    padding: 0.25rem;
+  }
+
+.back-to-top {
+    position: absolute;
+    right: 5rem;
+    bottom: -5em;
+    width: 3em;
 }
 
 footer {

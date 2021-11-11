@@ -31,16 +31,6 @@ body{
     float: none;
 }
 
-@media screen and (min-width: 800px) {
-    .header a {
-        float: left;
-        text-align: center;
-    }
-    .header-center {
-        float: center;
-    }
-}
-
 .header a img {
     height: 80px;
 }
@@ -69,8 +59,22 @@ p {
 
 form {
     display: block;
+    text-align: left;
     margin-top: 0em;
     color:rgb(14, 33, 67);
+    width: 100%;
+}
+
+form section input {
+    width: 100%;
+}
+
+form section textarea {
+    width: 100%;
+}
+
+.submission {
+    width: 50%;
 }
 
 .back-to-top-link {
@@ -95,4 +99,17 @@ form {
 footer {
     display: flex;
     align-items: flex-start;
+}
+
+@media screen and (min-width: 800px) {
+    .header a {
+        float: left;
+        text-align: center;
+    }
+    .header-center {
+        float: center;
+    }
+    form {
+        width: 50%;
+    }
 }

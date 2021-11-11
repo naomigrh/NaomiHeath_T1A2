@@ -1,18 +1,14 @@
-@media screen and (min-width: 800px) {
+@media screen and (max-width: 800px) {
     .header a {
-        float: left;
-        text-align: center;
+        float: none;
+        display: block;
+        text-align: left;
     }
-
-    .header .nav-items:hover {
-        background-color: rgb(255, 255, 227);
-        color: rgb(21, 42, 89);
-    }
-      
     .header-center {
-        float: center;
+        float: none;
     }
 }
+
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -31,23 +27,27 @@ body{
 }
 
 .header a {
-        float: none;
-        display: block;
-        text-align: left;
-        color: rgb(14, 33, 67);
-        padding: 12px;
-        text-decoration: none;
-        font-size: 18px; 
-        line-height: 25px;
-        border-radius: 4px;
+    float: left;
+    text-align: center;
+    color: rgb(14, 33, 67);
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.header .nav-items:hover {
+    background-color: rgb(255, 255, 227);
+    color: rgb(21, 42, 89);
+}
+  
+.header-center {
+    float: center;
 }
 
 .header a img {
         height: 80px;
-}
-    
-.header-center {
-        float: none;
 }
 
 a {

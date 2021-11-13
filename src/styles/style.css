@@ -146,7 +146,7 @@ footer {
         border:rgb(255, 255, 227);
     }
     .header-center {
-        float: center;
+        justify-content: center;
         border:rgb(14, 33, 67);
     }
     .nav-items {

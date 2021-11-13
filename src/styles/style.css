@@ -19,8 +19,8 @@ body{
     color: rgb(14, 33, 67);
     padding: 12px;
     text-decoration: none;
-    font-size: 18px; 
-    line-height: 25px;
+    font-size: 150%; 
+    /* line-height: 25px; */
 }
   
 .header-center {
@@ -44,11 +44,23 @@ a {
 }
 */
 
-h1, h2, h3 {
+h1 {
+    font-size: 300%;
+    color:rgb(21, 42, 89);
+}
+
+h2 {
+    font-size: 250%;
+    color:rgb(21, 42, 89);
+}
+
+h3 {
+    font-size: 200%;
     color:rgb(21, 42, 89);
 }
 
 p {
+    font-size: 150%;
     color:rgb(14, 33, 67);
 }
 
@@ -59,6 +71,8 @@ p {
 }
 .me {
     border-radius: 80%;
+    display: flex;
+    position:relative;
 }
 
 .post {
@@ -131,7 +145,7 @@ footer {
     .nav-items {
         border:royalblue;
     }
-    
+
     form {
         width: 50%;
     }

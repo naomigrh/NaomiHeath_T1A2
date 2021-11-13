@@ -1,8 +1,5 @@
 body{
     font-family: 'Roboto', sans-serif;
-    /*
-    background-image: url("/images/resizeunsplashocean.jpg");
-    */
     background: rgb(251, 240, 201);
     border: 20px solid rgb(37, 101, 123);
     border-radius: 10px;
@@ -13,7 +10,6 @@ body{
     overflow: hidden;
     background-color: rgb(159, 198, 187);
     padding: 10px;
-    border: 5px dotted black;
 }
 
 .header a {
@@ -25,18 +21,14 @@ body{
     text-decoration: none;
     font-size: 18px; 
     line-height: 25px;
-    border-radius: 4px;
-    border: 5px dotted orange;
 }
   
 .header-center {
     float: none;
-    border: 5px dotted yellow;
 }
 
 .header a img {
     height: 80px;
-    border: 5px dotted white;
 }
 
 .nav-items:hover {
@@ -54,12 +46,10 @@ a {
 
 h1, h2, h3 {
     color:rgb(21, 42, 89);
-    border: 5px dotted blue;
 }
 
 p {
     color:rgb(14, 33, 67);
-    border: 5px dotted green;
 }
 
 .avatar {
@@ -69,7 +59,6 @@ p {
 }
 .me {
     border-radius: 80%;
-    border: 5px dotted lime;
 }
 
 .post {
@@ -85,22 +74,18 @@ form {
     margin-top: 0em;
     color:rgb(14, 33, 67);
     width: 100%;
-    border: 5px dotted pink;
 }
 
 form section input {
     width: 100%;
-    border: 5px dotted purple;
 }
 
 form section textarea {
     width: 100%;
-    border: 5px dotted violet;
 }
 
 .submission {
     width: 50%;
-    border: 5px dotted orangered;
 }
 
 .back-to-top {
@@ -108,7 +93,6 @@ form section textarea {
     right: 5rem;
     bottom: 4rem;
     width: 3em;
-    border: 5px dotted black;
 }
 
 .back-to-top-link {
@@ -123,19 +107,16 @@ form section textarea {
     width: 10%;
     height: 10%;
     padding: 10%;
-    border: 5px dotted blue;
 }
 
 footer {
     display: flex;
     align-items: flex-start;
-    border: 5px dotted black;
 }
 
 .footer-icons {
     display: flex;
     justify-content: space-around;
-    border:rgb(37, 101, 123);
 }
 
 @media screen and (min-width: 800px) {
@@ -143,15 +124,14 @@ footer {
         float: left;
         text-align: center;
         display: inline;
-        border:rgb(255, 255, 227);
     }
     .header-center {
         justify-content: center;
-        border:rgb(14, 33, 67);
     }
     .nav-items {
         border:royalblue;
     }
+    
     form {
         width: 50%;
     }

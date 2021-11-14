@@ -6,10 +6,10 @@
 [link to github](https://github.com/naomigrh/NaomiHeath_T1A2/)
 
 # **Description**
-    This **Portfolio Website** is a *demonstration of skills* learned during the first few weeks of Coder Academy Flextrack Bootcamp. It features *several pages linked together* with a cohesive theme including some personal and professional background of the developer. Utilising *mobile-first design,* the aim is to create a *responsive* site for better user experience. The **Portfolio Website** will be used to showcase current and ongoing projects to *future employers*.
+This **Portfolio Website** is a *demonstration of skills* learned during the first few weeks of Coder Academy Flextrack Bootcamp. It features *several pages linked together* with a cohesive theme including some personal and professional background of the developer. Utilising *mobile-first design,* the aim is to create a *responsive* site for better user experience. The **Portfolio Website** will be used to showcase current and ongoing projects to *future employers*.
 
 ## **Purpose and Target Audience**
-    The purpose of this site is assessment for Coder Academy. It will be updated to continue showing progress of my work and education. The target audience is future employers and colleagues who may be interested in learning more about me or connecting professionally or socially. 
+The purpose of this site is assessment for Coder Academy. It will be updated to continue showing progress of my work and education. The target audience is future employers and colleagues who may be interested in learning more about me or connecting professionally or socially. 
 
 ## **Functionality/Features**
     - Responsive design: ease of use on all devices
@@ -95,11 +95,20 @@ Portfolio- Mobile
 [link to netlify](https://app.netlify.com/sites/naomigrh/overview)
 
 ### **Security**
-    - 
+    - SRI (Subresource Integrity) sha-512
 
 ## **Attribution**
 
 ### **Images**
-    - icons sourced by Icon Finder [link to iconfinder](https://www.iconfinder.com/)
-    - free to use icons used only
-    - picart sourced by Pic Crew Image Generator
+    - icons sourced by Icon Finder
+    - free to use icons only 
+[link to iconfinder](https://www.iconfinder.com/)
+
+    - picart sourced by Pic Crew Free Image Generator- DJarn Character Maker 
+[link to pic crew djarn](https://picrew.me/image_maker/332600/complete?cd=KLYCPdA2QZ)
+
+    - interactive map and code sourced by AM Charts 
+    - colours changed and code commented into html
+[link to amcharts](https://www.amcharts.com/visited_countries/#FR,DE,GR,HU,IT,NL,CH,GB,VA,US,BN,KH,CN,HK,ID,JP,LA,MY,PH,SG,TH,VN,AU,FJ,NR,NC,NZ,TO,VU)
+
+    - all other images are my own (logo, me, ig snippet, blog posts, sitemap, wireframes, etc.) 

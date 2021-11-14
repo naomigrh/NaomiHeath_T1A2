@@ -131,6 +131,13 @@ form section textarea {
     width: 50%;
 }
 
+.portfolio-icons {
+    position:relative;
+    max-width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
 .back-to-top {
     position: fixed;
     right: 5rem;

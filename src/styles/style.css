@@ -99,6 +99,18 @@ p {
     justify-content: center;
 }
 
+.post h3, p {
+    width: 100%;
+    text-align: center;
+}
+
+.post img {
+    display: flex;
+    position:relative;
+    max-width: 100%;
+    height: auto;
+}
+
 form {
     display: block;
     text-align: left;
@@ -147,6 +159,7 @@ form section textarea {
     bottom: 30px;
     right: 30px;
     z-index: 100;
+}
 
 @media screen and (min-width: 600px) {
     .header a {

@@ -99,7 +99,7 @@ p {
     justify-content: center;
 }
 
-.post h3, p {
+.post h3, .post p {
     width: 100%;
     text-align: center;
 }

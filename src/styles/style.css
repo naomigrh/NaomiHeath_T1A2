@@ -28,8 +28,11 @@ body{
     float: none;
 }
 
-.header a img {
-    height: 80px;
+.logo {
+    display: flex;
+    position:relative;
+    max-width: 100%;
+    height: auto;
 }
 
 .nav-items:hover {
@@ -169,6 +172,13 @@ form section textarea {
 }
 
 @media screen and (min-width: 600px) {
+    .logo {
+        display: flex;
+        position:relative;
+        max-width: 100%;
+        height: auto;
+    }
+    
     .header a {
         float: left;
         text-align: center;

@@ -1,8 +1,8 @@
 body{
     font-family: 'Roboto', sans-serif;
     background: rgb(251, 240, 201);
-    border: 20px solid rgb(37, 101, 123);
-    border-radius: 10px;
+    border: 10px solid rgb(37, 101, 123);
+    margin: 0px;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 5%;
@@ -78,6 +78,7 @@ p {
     position: relative;
     max-width: 100%;
     height: auto;
+    float: right;
 }
 
 /* graphic component: relevant image */
@@ -87,6 +88,8 @@ p {
     position:relative;
     max-width: 100%;
     height: auto;
+    float: right;
+    padding: 10px;
 }
 
 /* graphic component: relevant image */
@@ -108,12 +111,14 @@ p {
 /* graphic component: relevant image */
 .post {
     margin-top: 20px;
+    margin-right: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    border: 2px dashed rgb(37, 101, 123);
 }
 
-.post h3, .post p {
+.post h3, .post p, .post1 h3, .post1 p {
     width: 100%;
     text-align: center;
 }
@@ -124,6 +129,12 @@ p {
     position:relative;
     max-width: 100%;
     height: auto;
+}
+
+.post1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 /* text component: contact form */
@@ -145,6 +156,10 @@ form section textarea {
 
 .submission {
     width: 50%;
+}
+
+.contact-method {
+    padding-top: 5px;
 }
 
 /* graphic component: relevant image */
@@ -181,6 +196,10 @@ form section textarea {
 }
 
 @media screen and (min-width: 600px) {
+    body {
+        border: 20px solid rgb(37, 101, 123);
+    }
+
     .logo {
         display: flex;
         position:relative;
@@ -224,6 +243,15 @@ form section textarea {
     p {
         font-size: 150%;
         color:rgb(14, 33, 67);
+    }
+
+    .post {
+        width: 45%;
+        display: inline-block;
+    }
+
+    .post img {
+        margin: auto;
     }
 
     .footer-icons {
